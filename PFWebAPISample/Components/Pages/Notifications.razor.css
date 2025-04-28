@@ -2,9 +2,9 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background: #EFF1F3;
     min-height: 100vh;
     position: relative;
+    background-color: lavenderblush
 }
 
 .section-50 {
@@ -28,7 +28,7 @@ body {
         content: "";
         height: 4px;
         width: 75px;
-        background-color: #29B6F6;
+        background-color: indianred;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -46,14 +46,17 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 20px;
-    margin-bottom: 7px;
-    background: #fff;
-    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+    background: #ffffff;
+    /*-webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);*/
+    /*box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);*/
+    box-shadow: 5px 5px lavenderblush;
+    border: 2px solid lavenderblush;
+    
 }
 
 .notification-list--unread {
-    border-left: 2px solid #29B6F6;
+    border-left: 2px solid indianred;
 }
 
 .notification-list .notification-list_content {
